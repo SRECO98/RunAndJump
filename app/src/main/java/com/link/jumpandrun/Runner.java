@@ -22,6 +22,7 @@ public class Runner extends GameObject{
         return spritePosition;
     }
 
+    public String name = "Sreten";
 
     public enum RunnerState{
         STANDING, RUNNING, JUMPING
